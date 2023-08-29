@@ -1,0 +1,336 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+*
+{
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.navbar-dark.bg-dark {
+    background-color: white; 
+    color : black;/* Set the background to white */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black; /* Set the text color to white */
+    padding: 10px;
+}
+
+/* Additional styles */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black; /* Set a different color for hovered links */
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 25px; /* Adjust the value as needed */
+}
+.nav-item-item:hover {
+    transition: none; /* Disable any transitions */
+    background-color: rgb(8, 8, 8); /* Set the desired background color */
+    /* Other styles as needed */
+}
+
+.dropdown-menu .dropdown-item {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+/*banner */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    background-image: url("banner (1).png"); 
+    background-size: cover;
+    background-position: top;
+    height: 400px; /* Adjust the height as needed */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-buttons {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #004A8F;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+/* Animation */
+.banner1 {
+    width: 100%;
+    height: 200px;
+    background-color: #004A8F;
+    color: white;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+/*products*/
+
+.product-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.product-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    color: #7a7a7a
+}
+.product-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-image img {
+    width: 150px;
+    height: 130px;
+}
+
+/* Services */
+.service-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20 80px; /* Add left and right padding */
+    font-size: 1gpx;
+}
+
+.service-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.service-paragraph
+{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+.service-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    
+   
+}
+
+.service-image {
+    width: 27%;
+    text-align: center;
+}
+
+.service-image img {
+    width: 150px;
+    height: 130px;
+}
+.btn {
+    background-color: #004A8F;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+/*our client- Start*/
+#clientSlider h2 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+.client-logo-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client-logo {
+    flex: 0 0 calc(20% - 20px); /* 20% width with 20px gap between logos */
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+/* Add space between heading and client logos */
+.section-heading {
+    margin-bottom: 30px; /* Adjust the value as needed */
+}
+
+/* Customize carousel control arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: transparent; /* Remove the background color */
+    border: none; /* Remove any border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; /* Adjust the font size of the icon */
+    color: black; /* Set the icon color to white */
+    position: absolute;
+    top: 50%; /* Adjust the position as needed */
+    transform: translateY(-50%);
+    cursor: pointer; /* Add cursor pointer for interactivity */
+}
+
+.carousel-control-prev {
+    left: -30px; /* Adjust the position as needed */
+}
+
+.carousel-control-next {
+    right: -30px; /* Adjust the position as needed */
+}
+
+
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    
+  }
+
+/* End */
+/* ZOHO block */
+.section-heading p{
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+
+/*Getintouch*/
+
+
+
+.custom-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    /* Remove the background-color property */
+}
+
+.block-container {
+    background-color: #004A8F;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.contact-button {
+    background-color: white;
+    color: #004A8F;
+    border: none;
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.service-paragraph1
+{
+    font-size: 16px;
+    color: white;
+}
+
+/* Testimonial */
+.testimonial {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+        }
+        .testimonial img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+    /*end*/    
+
+/*Footer */
+
+ 
+.footer-container {
+    background-color: #29282e;
+    width: 100%;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #ccc;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.footer-img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-text {
+    font-size: 16px;
+}
+
+.social-icon {
+    color: #ccc;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.copy
+{
+    color: #ccc;
+}
